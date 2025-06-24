@@ -15,6 +15,12 @@ export default function HomePage() {
       >
         ➕ Add a Milestone
       </Link>
+      <Link
+        to="/milestones"
+        className="block mt-4 text-blue-600 hover:underline"
+      >
+        📅 View My Milestones
+      </Link>
     </div>
   );
 }
